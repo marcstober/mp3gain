@@ -233,10 +233,9 @@ d) mp4v2
 	  only in the full (paid) version of Visual Studio. Therefore, I am
 	  using the r355 tarball, and patching the bug myself.
 
-   cd to the aacgain directory where mp4v2.patch is located. Apply the patch with 
-   the command
+   Apply the patch with the command
 
-   patch -p0 <mp4v2.patch
+   patch -p0 <aacgain/mp4v2.patch
 
    If you don't care about the above issues you may skip applying this patch.
    

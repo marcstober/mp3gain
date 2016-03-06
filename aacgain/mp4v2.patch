@@ -1,5 +1,5 @@
---- ../mp4v2/src/mp4track.cpp	2009-05-23 06:29:37.000000000 -0700
-+++ ../mp4v2/src/mp4track.cpp	2010-07-28 16:00:37.171875000 -0700
+--- mp4v2/src/mp4track.cpp	2009-05-23 06:29:37.000000000 -0700
++++ mp4v2/src/mp4track.cpp	2010-07-28 16:00:37.171875000 -0700
 @@ -538,6 +538,10 @@
          pBufferSizeProperty->SetValue(GetMaxSampleSize());
      }
