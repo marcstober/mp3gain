@@ -197,9 +197,9 @@ b) mp3gain
 c) faad2
    aacgain was built using the the FAAD2 release 2.7 dated 2009-02-10
    downloaded from http://sourceforge.net/projects/faac/files/.
-   
-   Download any of the faad2-2.7 source files and expand the archive as a peer
-   to the aacgain directory. Rename its top-level directory to faad2.
+
+   These files are now included in the Github repository so there is no need for
+   you to download them.
 
    Due to the way aacgain is programmed, using modified copies of faad2's
    decoder.c and syntax.c, use of any earlier or later version of faad2
@@ -211,8 +211,8 @@ d) mp4v2
    snapshot. aacgain uses the r355 snapshot, rather than the official
    release 1.9.1, due to its use of iTMF tags.
    
-   Download the tarball mp4v2-trunk-r355.tar.bz2, and expand the archive.
-   Rename its top level directory to mp4v2.
+   These files are now included in the Github repository so there is no need for
+   you to download them.
    
    Due to the patches described below, use of any earlier or later version
    of mp4v2 is not recommended.
@@ -233,12 +233,8 @@ d) mp4v2
 	  only in the full (paid) version of Visual Studio. Therefore, I am
 	  using the r355 tarball, and patching the bug myself.
 
-   Apply the patch with the command
+   This patch is already applied to the file in the Github repository.
 
-   patch -p0 <aacgain/mp4v2.patch
-
-   If you don't care about the above issues you may skip applying this patch.
-   
 The components must be arranged in the following directory hierarchy:
 -- aacgain containing aacgain.sln/.vcprojx and source files
 -- faad2 
